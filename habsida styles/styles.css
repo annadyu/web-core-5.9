@@ -1,0 +1,235 @@
+html, body {
+    font-size: 16px;
+    color: #2A4A5C;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    display: flex;
+    background-color: #EFF6FF;
+}
+
+.iintoo_img {
+    flex: 1;
+}
+
+.backgroung_img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo_img {
+    position: absolute;
+    width: 150px;
+    top: 105px;
+    left: 115px;
+
+}
+
+.wrapper {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    margin: 90px;
+    background-color: #fff;
+}
+
+.iintoo_inner {
+    padding: 50px 80px;
+    flex: 1;
+
+
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin-bottom: 60px;
+    color: #96A5B1;
+}
+
+.iintoo_btn-box {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.facebook_btn {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    background-color: #255A9B;
+}
+
+.facebook_btn::before {
+    content: "";
+    display: inline-block;
+    background: url(/images/facebook.svg) 0 0/ 100% no-repeat;
+    margin-right: 10px;
+    top: 0;
+    left: 0;
+    width: 22px;
+    height: 22px;
+}
+
+.button {
+    width: 300px;
+    color: #fff;
+    padding: 12px 50px;
+    transition: all .3s;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.in_btn {
+    background-color: #0076B6;
+    display: flex;
+}
+
+.in_btn::before {
+    content: "";
+    display: inline-block;
+    background: url(images/linkedin.svg) 0 0/ 100% no-repeat;
+    margin-right: 10px;
+    top: 0;
+    left: 0;
+    width: 22px;
+    height: 22px;
+}
+
+.line {
+    margin-bottom: 40px;
+    justify-self: center;
+    position: relative;
+}
+
+.line::before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    top: 10px;
+    right: 25px;
+    width: 120px;
+    height: 1px;
+    background: #96A5B1;
+}
+
+.line::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    top: 10px;
+    left: 25px;
+    width: 120px;
+    height: 1px;
+    background: #96A5B1;
+}
+
+.info_form-row {
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: center;
+}
+
+.info_input {
+    border-radius: 4px;
+    border: 1px solid #96A5B1;
+    padding: 20px;
+    margin-right: 40px;
+    width: 300px;
+    transition: all .3s;
+}
+
+.info_input ::placeholder {
+    align-items: flex-start;
+}
+
+.info_input:last-child {
+    margin-right: 0;
+}
+
+.info_input:hover {
+    border-left: 3px solid #3698FB;
+}
+
+
+.question_title {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.question_subtitle {
+    color: #96A5B1;
+    margin-bottom: 35px;
+}
+
+.checkbox_label {
+    margin-right: 35px;
+
+}
+
+.checkbox_form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox_input-custom:checked+.checkbox_input-default {
+    background: url(/images/icons/check.svg) 50% 50% no-repeat, #ff3f3a;
+    border: 1px solid #ff3f3a;
+}
+
+.checkbox_input-custom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #424551;
+    border-radius: 3px;
+    cursor: pointer;
+} */
+
+.checkbox_warning {
+    margin-left: 3px;
+    font-size: 12px;
+}
+
+.checkbox_warning:hover .checkbox_warning-text {
+    display: block;
+}
+
+.checkbox_warning-text {
+    margin-top: 30px;
+    width: 250px;
+    font-size: 14px;
+    padding: 4px;
+    color: #96A5B1;
+    display: none;
+    box-shadow: 10px 5px 5px rgb(209, 206, 206);
+    ;
+}
+
+
+.agree_input {
+    margin-top: 65px;
+    color: #96A5B1;
+}
+
+.agree_input-span {
+    color: #3698FB;
+    text-decoration: underline;
+}
+
+.create_button {
+    margin-top: 80px;
+    background-color: #3698FB;
+    width: 270px;
+}
