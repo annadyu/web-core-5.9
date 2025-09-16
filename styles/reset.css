@@ -43,6 +43,7 @@ input::-ms-clear {
 button {
   cursor: pointer;
 }
+
 button {
   background: transparent;
 }
@@ -80,6 +81,8 @@ a {
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
