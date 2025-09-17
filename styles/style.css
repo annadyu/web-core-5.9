@@ -2,16 +2,19 @@ html, body {
     font-family: "TT Lake", sans-serif;
 }
 
-.header {
+header {
     background-color: #fff;
     height: 88px;
     width: 100%;
     display: flex;
     align-items: center;
+
 }
 
 .header_inner {
     display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .header_menu-link {
@@ -51,6 +54,12 @@ html, body {
 
 .header_nav-item {
     position: relative;
+
+}
+
+.header_nav-search {
+    display: flex;
+    /* margin-left: 75px; */
 }
 
 .header_nav-span {
@@ -79,6 +88,7 @@ html, body {
 
 h1 {
     font-family: "TT Lake Bold", sans-serif;
+    color: #1B1C21;
     font-weight: 700;
     font-size: 28px;
     line-height: 40px;
@@ -91,8 +101,9 @@ h1 {
 h1::before {
     content: "";
     position: absolute;
+    border-radius: 4px;
     top: -1px;
-    left: -32px;
+    left: -33px;
     width: 4px;
     height: 40px;
     background: #41F6D7;
@@ -117,10 +128,12 @@ h1::before {
     line-height: 24px;
     letter-spacing: -0.2px;
     color: #7E7E82;
+    padding: 2px 5px;
+    border: 2px solid #F8F8F8;
 
 }
 
-.main_item:hover{
+.main_item:hover {
     background-color: #fff;
     border: 2px solid #B8FFEC
 }
@@ -150,27 +163,31 @@ h1::before {
 }
 
 .read_more {
+    position: relative;
     color: #1B1C21;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.2px;
     display: inline;
+    margin-left: 40px;
     margin-bottom: 16px;
 }
 
 .read_more-btn {
     margin-bottom: 16px;
+    color: #1B1C21;
 }
 
 .read_more::before {
+    position: absolute;
     margin-right: 16px;
     content: "";
     display: inline-block;
-    width: 8px;
-    height: 11px;
-    top: 0;
-    left: 0;
+    width: 24px;
+    height: 24px;
+    top: -1px;
+    left: -36px;
     background: url(../images/arrows.svg) 0 0/ 100% no-repeat;
 }
 
@@ -187,6 +204,14 @@ h1::before {
 /* адаптивная верстка 768 */
 
 @media (min-width: 768px) {
+
+    h1::before {
+        left: -41px;
+    }
+
+    .header_nav-search {
+        margin-left: 0;
+    }
 
     .main_inner {
         margin: 0 25px;
@@ -251,6 +276,10 @@ h1::before {
 /* адаптивная верстка 1120px */
 
 @media (min-width: 1120px) {
+
+    h1::before {
+        left: -41px;
+    }
 
     header {
         display: none;
