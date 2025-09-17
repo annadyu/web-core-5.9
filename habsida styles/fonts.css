@@ -4,7 +4,6 @@
   font-style: normal;
   src:
     local("Barlow"),
-    url("../fontss/AnyConv.com__Barlow-Regular.woff2") format("woff2"),
     url("../fontss/Barlow-Regular.woff") format("woff");
   font-display: swap;
 }
