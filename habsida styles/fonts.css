@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-style: normal;
+  src:
+    local("Barlow"),
+    url("../fontss/AnyConv.com__Barlow-Regular.woff2") format("woff2"),
+    url("../fontss/Barlow-Regular.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow Medium";
+  font-weight: 500;
+  font-style: medium;
+  src:
+    local("Barlow Medium"),
+    url("../fontss/Barlow-Medium.woff2") format("woff2"),
+    url("../fontss/Barlow-Medium.woff") format("woff");
+  font-display: swap;
+}

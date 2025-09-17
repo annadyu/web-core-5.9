@@ -173,7 +173,6 @@ html, body {
 
 .checkbox_label {
     margin-right: 35px;
-
 }
 
 .checkbox_form-row {
@@ -191,7 +190,8 @@ html, body {
 }
 
 .checkbox_warning-text {
-    margin-top: 30px;
+     position: absolute;
+    margin-top: 20px;
     width: 250px;
     font-size: 14px;
     padding: 4px;
@@ -203,7 +203,7 @@ html, body {
 
 
 .agree_input {
-    margin-top: 65px;
+    margin-top: 75px;
     color: #96A5B1;
 }
 
@@ -213,7 +213,7 @@ html, body {
 }
 
 .create_button {
-    margin-top: 80px;
+    margin-top: 60px;
     background-color: #3698FB;
     width: 270px;
 }
