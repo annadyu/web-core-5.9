@@ -43,7 +43,9 @@ html, body {
     flex: 1;
 }
 
-.title {
+h2 {
+    font-family: "Barlow Medium" , sans-serif;
+    font-weight: 500;
     font-size: 32px;
     margin-bottom: 20px;
 }
@@ -161,7 +163,9 @@ html, body {
 }
 
 
-.question_title {
+h3 {
+    font-family: "Barlow Medium", sans-serif;
+    font-weight: 500;
     font-size: 25px;
     margin-bottom: 20px;
 }
